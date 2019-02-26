@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="040227d1-6c38-4e59-af96-8f8c55224453" ChangeDateTime="02/26/2019 21:20:06">
+    <Property Name="ElementName" Value="[dbo].[FK_CreditCardsData_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[CreditCardsData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_CreditCardsData_EmployeeID]" />
+  </Operation>
+</Operations>
